@@ -22,4 +22,14 @@ class StudentController extends Controller
         'list_of_students' => $studentList
         ]);
     }
+
+    public function viewDashboard()
+    {
+      return view('dashboard');
+    } 
+
+    public function viewLoginForm()
+    {
+      return view('loginform');
+    }           
 }

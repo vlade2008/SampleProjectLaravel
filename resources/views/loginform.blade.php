@@ -1,8 +1,9 @@
-@extends('layouts.app')
+@extends('layouts.loginBackground')
 
 @section('content')
  <div class="login-background">
-    <h1 class="welcome text-center">Welcome to <br> Ice Code</h1>
+        <br>
+        <br>
         <div class="card card-container">
         <h2 class='login_title text-center'>Login</h2>
         <hr>

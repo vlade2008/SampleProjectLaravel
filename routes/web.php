@@ -22,3 +22,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/getstudents', 'StudentController@getStudents');
 Route::get('/viewstudents', 'StudentController@viewStudents');
 Route::get('/getRecords', 'RecordController@getRecordLists');
+Route::get('/dashboard', 'StudentController@viewDashboard');
+Route::get('/loginform', 'StudentController@viewLoginForm');
